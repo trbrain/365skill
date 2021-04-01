@@ -11,9 +11,7 @@
           ],
           "keywords": [],
           "name": "4月2日の扉",
-          "description": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！",
-          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
-          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+          "description": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！"
         }
       },
       "automaticDistribution": {
