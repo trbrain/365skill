@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "四月二日の扉",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TellmeIntent",
+          "slots": [],
+          "samples": [
+            "教えて",
+            "話して",
+            "トリビアを教えて",
+            "トリビアを話して",
+            "秘密を教えて",
+            "秘密を話して",
+            "豆知識を教えて",
+            "豆知識を話して"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
