@@ -1,0 +1,47 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ。",
+          "examplePhrases": [
+            "アレクサ、4月2日の扉を開いて",
+            "アレクサ、4月2日の扉でトリビアを教えて",
+            "アレクサ、4月2日の扉で豆知識を教えて"
+          ],
+          "keywords": [],
+          "name": "4月2日の扉",
+          "description": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "シンプルに、「アレクサ、4月2日の扉を開いて」と言ったあと、「教えて」と言ってください。",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "ja-JP": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-fact-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
