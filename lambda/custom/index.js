@@ -2,16 +2,20 @@
 // Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
 // session persistence, api calls, and more.
 const Alexa = require('ask-sdk-core');
+const day = '4月xx日';
+const msg1 = day + 'の扉を開きます。<audio src="soundbank://soundlibrary/doors/doors_handles/handle_02"/>';
+const msg2 = day + 'はエイプリルフールです。罪のない嘘をついていい日とされています。でも、どうせなら楽しい気分になれる嘘をつきたいですよね。誕生花は桜、花言葉は精神の美しさです。';
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = '4月2日の扉を開きます。トリビアを聞くときは、「教えて」と言ってください。ヘルプを聞くときは「ヘルプ」と言ってください。どうしますか？';
+        const speakOutput = '<prosody rate="slow">' + msg1 + msg2 + '</prosody>';
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            .reprompt(speakOutput)
+            .withSimpleCard(day, msg2)
+            //.reprompt(speakOutput)
             .getResponse();
     }
 };
@@ -21,9 +25,10 @@ const HelloWorldIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'TellmeIntent';
     },
     handle(handlerInput) {
-        const speakOutput = '4月2日は国際こども本の日です。デンマークの童話作家「ハンス・クリスチャン・アンデルセン」の誕生日にちなんだ記念日です。誕生花はデイジー、花言葉は無垢です。';
+        const speakOutput = '<prosody rate="slow">' + msg1 + msg2 + '</prosody>';
         return handlerInput.responseBuilder
             .speak(speakOutput)
+            .withSimpleCard(day, msg2)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
             .getResponse();
     }
