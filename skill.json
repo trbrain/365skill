@@ -3,23 +3,23 @@
     "publishingInformation": {
       "locales": {
         "ja-JP": {
-          "summary": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ。",
+          "summary": "4月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ。",
           "examplePhrases": [
-            "アレクサ、4月2日の扉を開いて",
-            "アレクサ、4月2日の扉でトリビアを教えて",
-            "アレクサ、4月2日の扉で豆知識を教えて"
+            "アレクサ、4月xx日の扉を開いて",
+            "アレクサ、4月xx日の扉でトリビアを教えて",
+            "アレクサ、4月xx日の扉で豆知識を教えて"
           ],
           "keywords": [],
-          "name": "4月2日の扉",
-          "description": "4月2日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！"
+          "name": "4月xx日の扉",
+          "description": "4月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！"
         }
       },
       "automaticDistribution": {
         "isActive": false
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "シンプルに、「アレクサ、4月2日の扉を開いて」と言ったあと、「教えて」と言ってください。",
-      "category": "EDUCATION_AND_REFERENCE",
+      "testingInstructions": "シンプルに、「アレクサ、4月xx日の扉を開いて」と言ってください。",
+      "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },
     "privacyAndCompliance": {
