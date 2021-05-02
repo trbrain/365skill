@@ -3,8 +3,11 @@
 // session persistence, api calls, and more.
 const Alexa = require('ask-sdk-core');
 const day = '4月xx日';
+const anv = '';
+const flower = '';
+const phrase = '';
 const msg1 = day + 'の扉を開きます。<audio src="soundbank://soundlibrary/doors/doors_handles/handle_02"/>';
-const msg2 = day + 'はエイプリルフールです。罪のない嘘をついていい日とされています。でも、どうせなら楽しい気分になれる嘘をつきたいですよね。誕生花は桜、花言葉は精神の美しさです。';
+const msg2 = day + 'は' + anv + 'です。誕生花は' + flower + '、花言葉は' + phrase + 'です。';
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
