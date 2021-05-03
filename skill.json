@@ -3,22 +3,22 @@
     "publishingInformation": {
       "locales": {
         "ja-JP": {
-          "summary": "4月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ。",
+          "summary": "5月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ。",
           "examplePhrases": [
-            "アレクサ、4月xx日の扉を開いて",
-            "アレクサ、4月xx日の扉でトリビアを教えて",
-            "アレクサ、4月xx日の扉で豆知識を教えて"
+            "アレクサ、5月xx日の扉を開いて",
+            "アレクサ、5月xx日の扉でトリビアを教えて",
+            "アレクサ、5月xx日の扉で豆知識を教えて"
           ],
-          "keywords": [],
-          "name": "4月xx日の扉",
-          "description": "4月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！"
+          "keywords": ["5月"],
+          "name": "5月xx日の扉",
+          "description": "5月xx日についての情報をお知らせするスキルです。日々の暮らしに豆知識をどうぞ！"
         }
       },
       "automaticDistribution": {
         "isActive": false
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "シンプルに、「アレクサ、4月xx日の扉を開いて」と言ってください。",
+      "testingInstructions": "シンプルに、サンプルフレーズでテストしてください。",
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },
