@@ -2,7 +2,7 @@
 // Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
 // session persistence, api calls, and more.
 const Alexa = require('ask-sdk-core');
-const day = '4月xx日';
+const day = '5月xx日';
 const anv = '';
 const flower = '';
 const phrase = '';
